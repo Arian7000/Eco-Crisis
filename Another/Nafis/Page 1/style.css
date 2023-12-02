@@ -1,0 +1,117 @@
+.desktop {
+  position: relative;
+  width: 1440px;
+  height: 1837px;
+  background-color: #521d1b;
+  overflow: hidden;
+}
+
+.desktop .rectangle {
+  width: 1440px;
+  height: 77px;
+  top: 0;
+  background-color: #76160d;
+  position: absolute;
+  left: 0;
+}
+
+.desktop .img {
+  width: 1440px;
+  height: 136px;
+  top: 1701px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop .our-mission-is-to {
+  position: absolute;
+  width: 602px;
+  top: 119px;
+  left: 800px;
+  font-family: "Sue Ellen Francisco", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 69.3px;
+}
+
+.desktop .BGD-WFP {
+  position: absolute;
+  width: 750px;
+  height: 600px;
+  top: 120px;
+  left: 17px;
+  object-fit: cover;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 379px;
+  height: 105px;
+  top: 1486px;
+  left: 527px;
+}
+
+.desktop .div {
+  width: 379px;
+  height: 105px;
+  top: 0;
+  background-color: #1ee532e3;
+  position: absolute;
+  left: 0;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 285px;
+  top: 7px;
+  left: 51px;
+  font-family: "Stoke", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 69.3px;
+}
+
+.desktop .p {
+  position: absolute;
+  width: 1410px;
+  top: 790px;
+  left: 52px;
+  font-family: "Stoke", Helvetica;
+  font-weight: 400;
+  color: #beaaa9;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 52px;
+}
+
+.desktop .download {
+  position: absolute;
+  width: 510px;
+  height: 272px;
+  top: 894px;
+  left: 115px;
+  object-fit: cover;
+}
+
+.desktop .download-2 {
+  position: absolute;
+  width: 510px;
+  height: 168px;
+  top: 1255px;
+  left: 461px;
+  object-fit: cover;
+}
+
+.desktop .sakti {
+  position: absolute;
+  width: 545px;
+  height: 269px;
+  top: 894px;
+  left: 757px;
+  object-fit: cover;
+}

@@ -1,0 +1,468 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Professional Website</title>
+</head>
+
+<body>
+    <div id="loginPage" class="login-page">
+        <div class="login-container">
+            <h2>Login or Register</h2>
+            <form id="loginForm" class="login-form">
+                <label for="loginUsername">Username:</label>
+                <input type="text" id="loginUsername" name="loginUsername" required>
+
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="loginPassword" required>
+
+                <button type="submit" class="cta-button">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="showRegister">Register now</a></p>
+        </div>
+    </div>
+
+    <div id="mainContent" class="main-content">
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <img src="your-logo.png" alt="Your Logo">
+                    </div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button id="logoutButton">Logout</button>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="container">
+                    <h1>Your Professional Website</h1>
+                    <p>Welcome to a place of innovation and excellence.</p>
+                    <a href="#contact" class="cta-button">Get in Touch</a>
+                </div>
+            </section>
+
+            <!-- ... (previous HTML code) -->
+
+<!-- ... (previous HTML code) -->
+
+<section id="features" class="features">
+    <div class="container">
+        <h2>Key Features</h2>
+        <div class="slideshow-container">
+            <!-- Feature 1 with image -->
+            <div class="feature fade">
+                <img src="feature1.jpg" alt="Feature 1">
+                <h3>Feature 1</h3>
+                <p>Description of Feature 1 goes here.</p>
+                <button class="see-more-btn" onclick="redirectTo('https://example.com/feature1')">See More</button>
+            </div>
+            <!-- Feature 2 with image -->
+            <div class="feature fade">
+                <img src="feature2.jpg" alt="Feature 2">
+                <h3>Feature 2</h3>
+                <p>Description of Feature 2 goes here.</p>
+                <button class="see-more-btn" onclick="redirectTo('https://example.com/feature2')">See More</button>
+            </div>
+            <!-- Feature 3 with image -->
+            <div class="feature fade">
+                <img src="feature3.jpg" alt="Feature 3">
+                <h3>Feature 3</h3>
+                <p>Description of Feature 3 goes here.</p>
+                <button class="see-more-btn" onclick="redirectTo('https://example.com/feature3')">See More</button>
+            </div>
+            <!-- Feature 4 with image -->
+            <div class="feature fade">
+                <img src="feature4.jpg" alt="Feature 4">
+                <h3>Feature 4</h3>
+                <p>Description of Feature 4 goes here.</p>
+                <button class="see-more-btn" onclick="redirectTo('https://example.com/feature4')">See More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ... (remaining HTML code) -->
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- ... (remaining HTML code) -->
+
+
+            <section id="about" class="about">
+                <div class="container">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non nisi id justo tincidunt
+                        commodo eget vel ipsum.</p>
+                </div>
+            </section>
+        </main>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have questions or want to learn more? Reach out to us!</p>
+                <form action="#" method="post" class="contact-form">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Your Company | All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+CSS:
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.login-page,
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 2em;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-page {
+    background-color: #f4f4f4;
+}
+
+.main-content {
+    display: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    /* Adjust the max-width and max-height properties as needed */
+    max-width: 200px;
+    max-height: 60px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #e44d26;
+}
+
+main {
+    background-color: #f4f4f4;
+}
+
+.hero {
+    text-align: center;
+    padding: 4em 0;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e44d26;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+.features,
+.about {
+    padding: 4em 0;
+}
+
+.feature {
+    margin: 2em 0;
+}
+/* ... (previous styles) */
+
+.features {
+    padding: 4em 0;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.feature {
+    display: none;
+    text-align: center;
+    padding: 2em;
+}
+
+.fade {
+    animation: fade 2s ease-in-out infinite;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ... (remaining styles) */
+/* ... (previous styles) */
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+/* ... (remaining styles) */
+/* ... (previous styles) */
+
+.feature .see-more-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.feature .see-more-btn:hover {
+    background-color: #333;
+}
+
+/* ... (remaining styles) */
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 4em 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e44d26;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+
+
+java:
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const loginPage = document.getElementById('loginPage');
+    const mainContent = document.getElementById('mainContent');
+    const loginForm = document.getElementById('loginForm');
+    const showRegisterLink = document.getElementById('showRegister');
+    const logoutButton = document.getElementById('logoutButton');
+
+    // Check if user is already logged in (using local storage)
+    const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
+
+    if (isLoggedIn) {
+        // User is logged in, show main content
+        loginPage.style.display = 'none';
+        mainContent.style.display = 'block';
+    } else {
+        // User is not logged in, show login page
+        loginPage.style.display = 'flex';
+        mainContent.style.display = 'none';
+    }
+
+    loginForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        // In a real application, you'd perform authentication here
+        // For simplicity, let's simulate a successful login
+        const username = document.getElementById('loginUsername').value;
+        alert(`Welcome, ${username}!`);
+        // Set login status in local storage
+        localStorage.setItem('isLoggedIn', 'true');
+        // Show the main content and hide the login page
+        loginPage.style.display = 'none';
+        mainContent.style.display = 'block';
+    });
+
+    showRegisterLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        // In a real application, you might show a registration form here
+        alert('Redirect to registration page or show registration form.');
+    });
+
+    logoutButton.addEventListener('click', function () {
+        // Simulate logout by clearing local storage and reloading the page
+        localStorage.removeItem('isLoggedIn');
+        location.reload();
+    });
+});
+document.addEventListener('DOMContentLoaded', function () {
+    // Automatic slideshow functionality
+    let slideIndex = 0;
+
+    function showSlides() {
+        const slides = document.getElementsByClassName("feature");
+
+        // Hide all slides
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        // Show the next slide and loop to the first slide if necessary
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change slide every 2 seconds
+    }
+
+    // Function to redirect to a specified URL
+    window.redirectTo = function (url) {
+        window.location.href = url;
+    };
+
+    // Call the showSlides function to start the slideshow
+    showSlides();
+});
+
+

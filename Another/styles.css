@@ -1,0 +1,518 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+     /* Light gray background */
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.login-page,
+.main-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.login-container {
+    background-color: #6bb989;
+    padding: 4em;
+    max-width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-page {
+    background-color: #e0f7fa;
+}
+/* styles.css */
+
+
+.registration-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-container {
+    background-color: #6bb989;
+    padding: 4em;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+.main-content {
+    display: none;
+}
+
+header {
+    background-color: #388e3c; /* Dark green background */
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    /* Adjust the max-width and max-height properties as needed */
+    max-width: 150px;
+    max-height: 60px;
+
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #e44d26;
+}
+
+main {
+    background-color: #f4f4f4;
+}
+
+.hero {
+    text-align: center;
+    padding: 4em 0;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: black;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.0em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.cta-button:hover {
+    background-color: #2e7d32;
+}
+
+
+.features,
+.about {
+    padding: 4em 0;
+}
+
+.feature {
+    display: none;
+    text-align: center;
+    padding: 2em;
+}
+
+.features {
+    padding: 4em 0;
+    background-color: #c8e6c9; /* Light green background */
+}
+
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Ensure the fade class style is defined */
+.fade {
+    display: none; /* initially hide elements */
+}
+
+.feature {
+    display: none;
+    text-align: center;
+    padding: 2em;
+    width: 100%; /* Set the width to 100% for full-width slides */
+    float: left; /* Float the slides to create a horizontal slide effect */
+}
+
+.fade {
+    animation: fade 0s ease-in-out infinite;
+}
+
+@keyframes slide {
+    from {
+        margin-left: 100%; /* Start from outside the container */
+    }
+    to {
+        margin-left: 0; /* Move to the left edge */
+    }
+}
+
+/* ... (remaining styles) */
+/* ... (previous styles) */
+
+.feature img {
+    width: 75%; /* Set the width to 100% to ensure all images have the same size */
+    height: auto; /* Maintain aspect ratio */
+}
+#nextButton {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* ... (remaining styles) */
+/* ... (previous styles) */
+
+.feature .see-more-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.feature .see-more-btn:hover {
+    background-color: #333;
+}
+
+/* ... (remaining styles) */
+
+/* Adjust the padding-top and padding-bottom to make the section bigger */
+.support {
+    padding-top: 100px; /* Increase as needed */
+    padding-bottom: 100px; /* Increase as needed */
+}
+
+.support h2 {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.support p {
+    margin-bottom: 30px; /* Adjust as needed */
+}
+
+.contact {
+    background-color: #2e7d32; /* Dark green background */
+    color: #fff;
+    padding: 4em 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e44d26;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #2e7d32; /* Dark green background */
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+
+/* ... (previous styles) */
+
+button#logoutButton {
+    padding: 0.5em 1em;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button#logoutButton:hover {
+    background-color: #000;
+}
+
+/* ... (remaining styles) */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.donation-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.donation-form input,
+.donation-form select,
+.donation-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.donation-form select {
+    appearance: none;
+    background-image: url('dropdown-arrow.png'); /* Add your own dropdown arrow icon */
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-right: 30px; /* Adjust as needed based on your arrow icon size */
+}
+
+.donation-form button {
+    background-color: #e44d26;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.donation-form button:hover {
+    background-color: #333;
+}
+
+/* NGO List Styles */
+.ngo-list {
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+.ngo-list h3 {
+    color: #333;
+}
+
+.ngo-list ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ngo-list li {
+    margin-bottom: 20px;
+    width: 100%; /* By default, each NGO entry takes full width */
+}
+
+.ngo-list img {
+    max-width: 15%; /* Make sure images don't exceed their container */
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.ngo-list p {
+    color: #555;
+}
+.payment-details {
+    display: none; /* Initially hide the payment details section */
+}
+
+.payment-details label,
+.payment-details input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 90%;
+    max-width:470px;
+    background: linear-gradient(135deg,#00feba, #5b548a);
+    color:#fff;
+    margin:100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+.search{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline:0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+
+
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+
+
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px ;
+    
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;  
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}

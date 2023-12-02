@@ -1,0 +1,250 @@
+.desktop {
+  position: relative;
+  width: 1440px;
+  height: 1411px;
+  background-color: #edf6ee;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 820px;
+  height: 77px;
+  top: 112px;
+  left: 321px;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 76.8px;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 820px;
+  height: 43px;
+  top: 387px;
+  left: 374px;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 43.2px;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 379px;
+  height: 105px;
+  top: 1120px;
+  left: 523px;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  width: 285px;
+  top: 11px;
+  left: 51px;
+  font-family: "Stoke", Helvetica;
+  font-weight: 400;
+  color: #0c1d10;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 69.3px;
+}
+
+.desktop .rectangle {
+  width: 379px;
+  height: 105px;
+  background-color: #d7d7d7cc;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle-2 {
+  width: 1440px;
+  height: 83px;
+  background-color: #77160d;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 711px;
+  height: 68px;
+  top: 461px;
+  left: 374px;
+  background-color: #cbd1cb;
+  border: 1px solid;
+  border-color: #333e33;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 711px;
+  height: 90px;
+  top: 597px;
+  left: 374px;
+}
+
+.desktop .overlap-group-2 {
+  position: absolute;
+  width: 711px;
+  height: 90px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  width: 711px;
+  height: 65px;
+  top: 0;
+  left: 0;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 43.2px;
+}
+
+.desktop .credit-card {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 60px;
+  left: 120px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.desktop .ellipse {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  left: 10px;
+  background-color: #3416e8;
+  border-radius: 5px;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  width: 114px;
+  height: 18px;
+  top: 65px;
+  left: 6px;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  width: 711px;
+  height: 65px;
+  top: 813px;
+  left: 374px;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 43.2px;
+}
+
+.desktop .bkash {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 696px;
+  left: 494px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.desktop .ellipse-2 {
+  background-color: #09dc37;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+.desktop .nagad {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 743px;
+  left: 494px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.desktop .ellipse-3 {
+  background-color: #dc0909;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  width: 53px;
+  height: 18px;
+  top: 701px;
+  left: 380px;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  width: 65px;
+  height: 18px;
+  top: 748px;
+  left: 380px;
+  font-family: "Inknut Antiqua", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 1440px;
+  height: 136px;
+  top: 1257px;
+  left: 0;
+}
